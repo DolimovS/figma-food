@@ -1,0 +1,633 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container{
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto  ;
+    border: 2px solid orange;
+}
+
+button{
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+input{
+    border: none;
+    outline: none;
+}
+a{
+    text-decoration: none;
+}
+
+
+
+/* section */
+.section_1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+ .text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* border: 2px solid red; */
+    gap: 22px;
+}
+
+
+ .text h1{
+    font-family: Sofia Pro;
+font-size: 48px;
+font-weight: 700;
+line-height: 67.2px;
+text-align: left;
+
+}
+
+ .text p{
+    font-family: Sofia Pro;
+font-size: 18px;
+font-weight: 400;
+line-height: 24.16px;
+text-align: center;
+
+}
+ .text h1 span{
+    color:red;
+}
+
+ .cards{
+    width: 1294px;
+    padding-top: 193px;
+    display: flex;
+    column-gap: 18px;
+    row-gap: 176px;
+    flex-wrap: wrap;
+}
+
+ .card{
+    /* border: 2px solid red; */
+    width: 310px;
+height: 368px;
+border-radius: 20px ;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: end;
+gap: 22px;
+position: relative;
+/* gap: 20px; */
+background: linear-gradient(179.69deg, rgba(255, 255, 255, 0) -31.53%, #F54748 303.75%);
+
+}
+.img{
+    /* border: 2px solid red; */
+    width: 248.31px;
+height: 248.31px;
+display: flex;
+align-items: center;
+justify-content: center;
+border-radius: 50%;
+background: url(./img/img1.png) center no-repeat;
+position: absolute;
+top: -35%;
+}
+
+ .img .narxi {
+    width: 60px;
+    height: 60px;
+    border: 4px solid white;
+    background-color: rgba(253, 197, 94, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border-radius: 50%;
+    font-family: Sofia Pro;
+font-size: 18px;
+font-weight: 400;
+line-height: 24.16px;
+text-align: center;
+position: absolute;
+bottom: 20px;
+right: 35px;
+}
+
+ .reyting{
+    Width:156px;
+Height:38px;
+border: 2px solid black;
+}
+
+ .card h1{
+
+    font-family: Sofia Pro;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 33.22px;
+    text-align: center;
+    color: rgba(245, 71, 72, 1);
+    
+}
+ .card p{
+    width: 243px;
+    height: 63px;
+    font-family: Sofia Pro;
+font-size: 16px;
+font-weight: 400;
+line-height: 21.47px;
+text-align: center;
+color: rgba(25, 25, 25, 1);
+
+}
+
+ .card button{
+    padding: 10px 20px;
+    background: rgba(245, 71, 72, 1);
+    font-family: Sofia Pro;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24.16px;
+    text-align: left;
+    border-radius: 100px; 
+    color: white; 
+    transform: translateY(23px);
+    /* margin-top: 23px;   */
+}
+
+
+/* section_2 */
+.section_2{
+    margin-top: 243px;
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.section_2 .img_2{
+width: 602px;
+height: 619px;
+}
+.section_2 .img_2 img:nth-child(5){
+    width: 446px;
+    border: 2px solid red;
+    height: 554px;
+    /* border-radius: 50%; */
+}
+
+
+
+/* .text */
+.section_2 .right{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.section_2 .right h1{
+    font-family: Sofia Pro;
+font-size: 48px;
+font-weight: 700;
+line-height: 62.35px;
+text-align: left;
+
+}
+
+.section_2 .right h1 span:nth-child(1){
+    color: #F54748;
+}
+ .span_1{
+color: #FDC55E;
+}
+
+.section_2 .right p{
+    font-family: Sofia Pro;
+font-size: 18px;
+font-weight: 400;
+line-height: 24.16px;
+text-align: left;
+}
+
+.section_2 .links{
+    display: flex;
+    flex-wrap: wrap;
+    width: 524px;
+    gap: 89px;
+}
+
+.section_2 .links .left{
+    display: flex;
+    flex-direction: column;
+    gap: 31px;
+}
+
+.section_2 .links .link{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.section_2 .links .link a{
+    font-family: Sofia Pro;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24.39px;
+    text-align: left;
+    color: rgba(25, 25, 25, 1);
+}
+
+.section_2 .right button{
+width: 114px;
+height: 45px;
+font-family: Sofia Pro;
+font-size: 18px;
+font-weight: 400;
+line-height: 24.16px;
+text-align: center;
+color: rgba(255, 255, 255, 1);
+background-color: rgba(245, 71, 72, 1);
+border-radius: 100px;
+/* padding: 10px 20px; */
+}
+
+
+/* section_3 */
+.section_3{
+    margin-top: 210px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 55px;
+}
+
+.section_3 h1{
+    font-family: Sofia Pro;
+font-size: 48px;
+font-weight: 700;
+line-height: 67.2px;
+text-align: center;
+}
+
+.section_3 h1 span:nth-child(1),
+.section_3 h1 .span_love{
+    color: red;
+}
+.section_3 h1 .span_always{
+color: #FDC55E;
+}
+
+.section3_links a{
+    font-family: Sofia Pro;
+font-size: 18px;
+font-weight: 400;
+line-height: 24.16px;
+padding: 10px 20px;
+color:  rgba(25, 25, 25, 1);
+opacity: 60%;
+border: 2px solid rgba(25, 25, 25, 1);
+border-radius: 100px;
+transition: 0.3s;
+}
+
+.section3_links a:hover{
+    background-color: rgba(245, 71, 72, 1)    ;
+    color:  rgba(255, 255, 255, 1);
+    opacity: 1;
+    border: none;
+}
+
+.section3_cards{
+    width: 1294px;
+    padding-top: 193px;
+    display: flex;
+    column-gap: 18px;
+    row-gap: 216px;
+    flex-wrap: wrap;
+    position: relative;
+    /* margin-top: 190px; */
+}
+.section3_cards .img{
+    top: -45%;
+}
+
+/* section_4 */
+.section_4{
+    height: 632px;
+    width: 1440px;
+    margin-top: 204px;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-between;
+
+/* margin-bottom: 150px; */
+}
+
+.section4_left{
+    /* width: 643px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 70px;
+    gap: 45px;
+    position: relative;
+}
+.section4_left h1{
+    font-family: Sofia Pro;
+font-size: 48px;
+font-weight: 700;
+line-height: 67.2px;
+text-align: left;
+Width:643px;
+Height:134px;
+}
+
+.section4_red{
+    color: red;
+}
+.section4_left p{
+    font-family: Sofia Pro;
+font-size: 18px;
+font-weight: 400;
+line-height: 24.16px;
+text-align: left;
+width: 490px;
+height: 72px;
+}
+
+.section4_left .botton{
+    display: flex;
+    gap: 27px;
+}
+
+.section4_left .botton a{
+    width: 135px;
+    height: 40px;
+    /* border: 2px solid red; */
+    display: flex;
+    background-color: black;
+    color: white;
+    overflow: hidden;
+    align-items: center;
+    gap: 5px;
+    border-radius: 5px;
+    border: 1px solid rgba(166, 166, 166, 1)
+
+}
+.section4_left .botton a:nth-child(2){
+    width: 120px;
+}
+
+.botton a img{
+    width: 23px;
+    height: 25px;
+    padding-left: 5px;
+    /* overflow: hidden; */
+}
+.botton a .text{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.botton a:nth-child(1) .text p:nth-child(1){
+        font-size: 9px;
+        line-height: 6px;
+        display: flex;
+        align-items: end;
+        padding-left: 3px;
+        /* justify-content: end; */
+        /* border: 1px solid red; */
+
+}
+.botton a:nth-child(1) .text p:nth-child(2){
+    font-size: 20px;
+    line-height: 10px;
+    /* border: 1px solid red; */
+
+}
+
+.botton a:nth-child(2) .text p:nth-child(1){
+    font-size: 9px;
+    line-height: 6px;
+    display: flex;
+    align-items: end;
+    padding-left: 3px;
+    /* justify-content: end; */
+    /* border: 1px solid red; */
+
+}
+.botton a:nth-child(2) .text p:nth-child(2){
+font-size: 20px;
+line-height: 10px;
+/* border: 1px solid red; */
+
+}
+
+
+.section4_right{
+    width:615px;
+    /* border: 2px solid black; */
+    position: relative;
+    overflow: hidden;
+}
+.section4_right img:nth-child(1){
+    position: absolute;
+    top: 17px;
+}
+.section4_right img:nth-child(2){
+    position: absolute;
+    top: 57px;
+    left: 45px;
+}
+.section4_right img:nth-child(4){
+    Width:473.75px;
+    Height:570.57px;
+    /* border: 2px solid red; */
+    position: absolute;
+    z-index: 3;
+    left: 45px;
+    top: -38px;
+
+    border-radius: 0 0 230px 230px ;
+}
+.section4_right img:nth-child(3){
+    width: 1134px;
+    height: 494px;
+    position: absolute;
+    /* transform: Rotation(8.58°); */
+    transform: rotate(-8.58deg);
+    top: 280px;
+    left: 240px;
+    /* border: 2    px solid red; */
+    /* z-index: 4; */
+}
+.section4_right img:nth-child(5){
+    position: absolute;
+    top: 480px;
+    left: 260px;
+    z-index: 4;
+}
+.section4_right img:nth-child(6){
+    position: absolute;
+    top: 465px;
+    left: 340px;
+    z-index: 4;
+}
+.section4_right img:nth-child(7){
+    position: absolute;
+    top: 420px;
+    left: 400px;
+    z-index: 4;
+}
+.section4_right img:nth-child(8){
+    position: absolute;
+    top: 360px;
+    left: 460px;
+    z-index: 4;
+}
+
+
+
+/* foooter */
+.footer {
+    margin-top: 156px;
+    height: 433px;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    gap: 102px;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer .center{
+    display: flex;
+    gap: 103px;
+}
+
+.center .foothut{
+    display: flex;
+    flex-direction: column;
+
+}
+.foothut p{
+    margin: 10px 0 22px 0;
+    font-family: Sofia Pro;
+font-size: 18px;
+font-weight: 400;
+line-height: 24.16px;
+text-align: left;
+width: 325px;
+}
+
+.foothut .icons{
+    display: flex;
+    width: 100px;
+    height: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.center .about{
+    display: flex;
+    flex-direction: column;
+    gap: 11px;
+}
+
+
+
+.center .about h1,
+.foothut h1,
+.touch h1{
+    font-family: Sofia Pro;
+font-size: 24px;
+font-weight: 600;
+line-height: 33.22px;
+text-align: left;
+color: rgba(245, 71, 72, 1);
+
+}
+.center .about a{
+    font-family: Sofia Pro;
+font-size: 18px;
+font-weight: 400;
+line-height: 24.16px;
+text-align: left;
+color: rgba(25, 25, 25, 1);
+
+}
+.touch{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+}
+.touch p{
+    font-family: Sofia Pro;
+font-size: 18px;
+font-weight: 400;
+line-height: 24.16px;
+text-align: left;
+width: 379px;
+margin: 37px 0 27px 0;
+}
+
+.touch form input{
+    width: 205px;
+    height: 50px;
+    border-radius: 38px;
+    background: rgba(240, 241, 236, 1);
+    padding-left: 24px;
+    font-family: Inter;
+font-size: 14px;
+font-weight: 400;
+line-height: 16.94px;
+text-align: left;
+
+
+}
+
+.touch form  button{
+    padding: 16px 22px  17px 28px;
+    background: #F54748;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16.94px;
+    text-align: left;
+    color: white;
+    border-radius: 39px;    
+}
+
+/* .touch form input::placeholder{
+    padding-left: 24px;
+    font-family: Inter;
+font-size: 14px;
+font-weight: 400;
+line-height: 16.94px;
+text-align: left;
+
+} */
+
+
+
+
+
+.hidden{
+    display: none;
+}
